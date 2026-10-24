@@ -17,5 +17,7 @@
 | R11 Региональные промо | BG-2 | FR-PM-02, FR-AD-01 | Promo & Content | 011 | 14 | 2 |
 | O1 Мир | BG-4 | — | Ячейки, Directory | 002, 003, 007 | 01, 02, 06 | 0–2 |
 | O2 Соревнования | BG-1 | FR-CP | Competitions, Ingestion | 006, 009 | 09, 13 | 3 |
+| O3 Продвинутые устройства | BG-3 | FR-DV-02, FR-DV-03, NFR-MOD-01 | Device Integration, Ingestion | 001, 009, 013 | 11, 02 | 2–3 |
 | O4 Фитнес телефона | BG-3 | FR-AR-03 | Клиент | 005 | 02 | 1 |
 | O5 Охрана данных | BG-4 | FR-PR, NFR-SEC | Identity и все | 008, 012 | 01, 12 | 0 |
+| O6 Не все требования равнозначны | все | [MoSCoW-приоритизация](02-functional-requirements.md) | — | — | — | [фазы](06-roadmap.md) |
