@@ -20,6 +20,7 @@
 | [ADR-012](ADR-012-identity-consent.md) | OIDC, SSO, сервис согласий | QA-1 | NFR-SEC |
 | [ADR-013](ADR-013-event-bus-managed-services.md) | Kafka-совместимая шина, политика managed-сервисов | QA-2, QA-3 | RSK-15 |
 | [ADR-014](ADR-014-observability-slo.md) | OpenTelemetry и SLO | QA-1, QA-2 | NFR-OBS |
+| [ADR-015](ADR-015-maps-tiles.md) | Собственный тайловый сервис на открытых данных | стоимость | [TCO](../16-tco.md) |
 
 ## Как добавлять ADR
 Новый файл `ADR-NNN-slug.md` по шаблону выше; изменение решения — новый ADR со статусом «заменяет ADR-XXX», старый получает статус «заменён».

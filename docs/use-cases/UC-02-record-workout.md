@@ -18,15 +18,16 @@ sequenceDiagram
   participant C as Клиент
   participant G as Gateway
   participant N as Ingestion
-  participant O as Object store
+  participant O as Object store (при finalize)
   participant B as Event Bus
   C->>C: запись + чек-поинты
   C->>G: POST пачка (activity_id, chunk_no)
   G->>N: проверить, авторизовать
   N->>N: дедупликация
-  N->>O: сохранить пачку
+  N->>B: записать пачку в durable-лог
   N-)B: ChunkStored (outbox)
   N-->>C: 202 + подтверждение
   C->>G: finalize
+  N->>O: консолидированный объект тренировки
   N-)B: ActivityFinalized
 ```
